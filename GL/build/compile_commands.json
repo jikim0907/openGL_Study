@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/jikim/study/GL/build",
+  "command": "/usr/bin/g++    -g   -std=gnu++17 -o CMakeFiles/cmake_project.dir/src/main.cpp.o -c /home/jikim/study/GL/cmake_project/src/main.cpp",
+  "file": "/home/jikim/study/GL/cmake_project/src/main.cpp"
+}
+]
