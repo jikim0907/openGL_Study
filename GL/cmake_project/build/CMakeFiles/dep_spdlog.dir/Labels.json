@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jikim/study/GL/cmake_project/build/CMakeFiles/dep_spdlog"
+		},
+		{
+			"file" : "/home/jikim/study/GL/cmake_project/build/CMakeFiles/dep_spdlog.rule"
+		},
+		{
+			"file" : "/home/jikim/study/GL/cmake_project/build/CMakeFiles/dep_spdlog-complete.rule"
+		},
+		{
+			"file" : "/home/jikim/study/GL/cmake_project/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-install.rule"
+		},
+		{
+			"file" : "/home/jikim/study/GL/cmake_project/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-mkdir.rule"
+		},
+		{
+			"file" : "/home/jikim/study/GL/cmake_project/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-download.rule"
+		},
+		{
+			"file" : "/home/jikim/study/GL/cmake_project/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-update.rule"
+		},
+		{
+			"file" : "/home/jikim/study/GL/cmake_project/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-patch.rule"
+		},
+		{
+			"file" : "/home/jikim/study/GL/cmake_project/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-configure.rule"
+		},
+		{
+			"file" : "/home/jikim/study/GL/cmake_project/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-build.rule"
+		},
+		{
+			"file" : "/home/jikim/study/GL/cmake_project/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep_spdlog"
+		],
+		"name" : "dep_spdlog"
+	}
+}

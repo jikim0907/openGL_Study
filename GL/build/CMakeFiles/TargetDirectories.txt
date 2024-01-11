@@ -1,3 +1,0 @@
-/home/jikim/study/GL/build/CMakeFiles/rebuild_cache.dir
-/home/jikim/study/GL/build/CMakeFiles/edit_cache.dir
-/home/jikim/study/GL/build/CMakeFiles/cmake_project.dir

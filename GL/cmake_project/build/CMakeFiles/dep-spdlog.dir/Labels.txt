@@ -1,0 +1,14 @@
+# Target labels
+ dep-spdlog
+# Source files and their labels
+/home/jikim/study/GL/cmake_project/build/CMakeFiles/dep-spdlog
+/home/jikim/study/GL/cmake_project/build/CMakeFiles/dep-spdlog.rule
+/home/jikim/study/GL/cmake_project/build/CMakeFiles/dep-spdlog-complete.rule
+/home/jikim/study/GL/cmake_project/build/dep-spdlog-prefix/src/dep-spdlog-stamp/dep-spdlog-install.rule
+/home/jikim/study/GL/cmake_project/build/dep-spdlog-prefix/src/dep-spdlog-stamp/dep-spdlog-mkdir.rule
+/home/jikim/study/GL/cmake_project/build/dep-spdlog-prefix/src/dep-spdlog-stamp/dep-spdlog-download.rule
+/home/jikim/study/GL/cmake_project/build/dep-spdlog-prefix/src/dep-spdlog-stamp/dep-spdlog-update.rule
+/home/jikim/study/GL/cmake_project/build/dep-spdlog-prefix/src/dep-spdlog-stamp/dep-spdlog-patch.rule
+/home/jikim/study/GL/cmake_project/build/dep-spdlog-prefix/src/dep-spdlog-stamp/dep-spdlog-configure.rule
+/home/jikim/study/GL/cmake_project/build/dep-spdlog-prefix/src/dep-spdlog-stamp/dep-spdlog-build.rule
+/home/jikim/study/GL/cmake_project/build/dep-spdlog-prefix/src/dep-spdlog-stamp/dep-spdlog-test.rule

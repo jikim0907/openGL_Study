@@ -1,0 +1,5 @@
+/home/jikim/study/GL/cmake_project/build/CMakeFiles/edit_cache.dir
+/home/jikim/study/GL/cmake_project/build/CMakeFiles/rebuild_cache.dir
+/home/jikim/study/GL/cmake_project/build/CMakeFiles/dep_glfw.dir
+/home/jikim/study/GL/cmake_project/build/CMakeFiles/dep_spdlog.dir
+/home/jikim/study/GL/cmake_project/build/CMakeFiles/cmake_project.dir
