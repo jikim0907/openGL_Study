@@ -7,6 +7,11 @@ ShaderUPtr Shader::CreateFromFile(const std::string& filename, GLenum shaderType
   return std::move(shader); // shader memory move to out of inner class
 }
 
+Shader::~Shader() {
+  if (m_shader) {
+    glDeleteShader(m_shader);
+  }
+}
 
 bool Shader::LoadFile(const std::string& filename, GLenum shaderType) {
     auto result = LoadTextFile(filename); // in common.h

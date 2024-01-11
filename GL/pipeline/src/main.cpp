@@ -1,4 +1,4 @@
-#include "common.h"
+#include "shader.h"
 #include <iostream>
 #include <spdlog/spdlog.h>
 #include <glad/glad.h>
@@ -57,7 +57,7 @@ int main(int argc, const char** argv) {
     }
     
     glfwMakeContextCurrent(window);
-
+    //after this following code you can use gl func.
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
         SPDLOG_ERROR("failed to initialize glad");
         glfwTerminate();
@@ -66,6 +66,11 @@ int main(int argc, const char** argv) {
 
     const char* glVersion = reinterpret_cast<const char*>(glGetString(GL_VERSION));
     SPDLOG_INFO("OpenGL context version: {}", glVersion);
+
+    auto vertexShader = Shader::CreateFromFile("./shader/simple.vs", GL_VERTEX_SHADER);
+    auto fragmentShader = Shader::CreateFromFile("./shader/simple.fs", GL_FRAGMENT_SHADER);
+    SPDLOG_INFO("vertex shader id: {}", vertexShader->Get());
+    SPDLOG_INFO("fragment shader id: {}", fragmentShader->Get());
 
     OnFramebufferSizeChange(window, WINDOW_WIDTH, WINDOW_HEIGHT);
     glfwSetFramebufferSizeCallback(window,OnFramebufferSizeChange);

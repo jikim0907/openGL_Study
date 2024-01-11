@@ -1,3 +1,5 @@
 {
-    "cmake.sourceDirectory": "/home/jikim/study/GL/cmake_project"
+    "cmake.debugConfig": {
+        "cwd" : "${workspaceFolder"
+    }
 }
