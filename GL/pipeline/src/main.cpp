@@ -1,7 +1,4 @@
-#include "common.h"
-#include "shader.h"
-#include "program.h"
-
+#include "context.h"
 #include <iostream>
 #include <spdlog/spdlog.h>
 #include <glad/glad.h>
@@ -27,11 +24,6 @@ void OnKeyEvent(GLFWwindow* window,
     if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS) {
         glfwSetWindowShouldClose(window, true);
     }
-}
-
-void Render() {
-    glClearColor(0.1f, 0.2f, 0.3f, 0.0f);
-    glClear(GL_COLOR_BUFFER_BIT);
 }
 
 int main(int argc, const char** argv) {
@@ -70,27 +62,25 @@ int main(int argc, const char** argv) {
     const char* glVersion = reinterpret_cast<const char*>(glGetString(GL_VERSION));
     SPDLOG_INFO("OpenGL context version: {}", glVersion);
 
-    // auto vertexShader = Shader::CreateFromFile("./shader/simple.vs", GL_VERTEX_SHADER); //shader class address ptr
-    // auto fragmentShader = Shader::CreateFromFile("./shader/simple.fs", GL_FRAGMENT_SHADER);
-    ShaderPtr  vertexShader = Shader::CreateFromFile("./shader/simple.vs", GL_VERTEX_SHADER); //shader class address ptr
-    ShaderPtr  fragmentShader = Shader::CreateFromFile("./shader/simple.fs", GL_FRAGMENT_SHADER);
-    SPDLOG_INFO("vertex shader id: {}", vertexShader->Get());
-    SPDLOG_INFO("fragment shader id: {}", fragmentShader->Get());
-
-    auto program = Program::Create({fragmentShader, vertexShader}); //the elements can be wrapped in {} to make it a vector.
-    SPDLOG_INFO("program id: {}", program->Get());
-
+    auto context = Context::Create();
+    if (!context) {
+        SPDLOG_ERROR("failed to create context");
+        glfwTerminate();
+        return -1;
+    }
+    
     OnFramebufferSizeChange(window, WINDOW_WIDTH, WINDOW_HEIGHT);
     glfwSetFramebufferSizeCallback(window,OnFramebufferSizeChange);
     glfwSetKeyCallback(window,OnKeyEvent);
 
     SPDLOG_INFO("Start main loop");
     while (!glfwWindowShouldClose(window)) {
-        glfwPollEvents();
-        glClearColor(0.0f, 0.1f, 0.2f, 0.0f);
-        glClear(GL_COLOR_BUFFER_BIT);
+        context->Render();
         glfwSwapBuffers(window);
+        glfwPollEvents();
     }
+    context.reset(); //remove  all opengl objects of context
+    //context = nullptr; 
 
     glfwTerminate();
     return 0;
