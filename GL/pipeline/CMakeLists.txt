@@ -10,7 +10,8 @@ set(WINDOW_HEIGHT 540)
 project(${PROJECT_NAME}) #use env variable for ${} ,  project setting option
 add_executable(${PROJECT_NAME}  src/main.cpp
                                 src/common.cpp src/common.h
-                                src/shader.cpp src/shader.h ) #create object file with src/... all file auto link
+                                src/shader.cpp src/shader.h 
+                                src/program.cpp src/program.h ) #create object file with src/... all file auto link
 
 #include(ExternalProject) # ExternalProject 
 
