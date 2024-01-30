@@ -1,0 +1,14 @@
+# Target labels
+ dep_stb
+# Source files and their labels
+/home/jikim/study/GL_jikim/GL/GLSL/build/CMakeFiles/dep_stb
+/home/jikim/study/GL_jikim/GL/GLSL/build/CMakeFiles/dep_stb.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/CMakeFiles/dep_stb-complete.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_stb-prefix/src/dep_stb-stamp/dep_stb-install.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_stb-prefix/src/dep_stb-stamp/dep_stb-mkdir.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_stb-prefix/src/dep_stb-stamp/dep_stb-download.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_stb-prefix/src/dep_stb-stamp/dep_stb-update.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_stb-prefix/src/dep_stb-stamp/dep_stb-patch.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_stb-prefix/src/dep_stb-stamp/dep_stb-configure.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_stb-prefix/src/dep_stb-stamp/dep_stb-build.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_stb-prefix/src/dep_stb-stamp/dep_stb-test.rule

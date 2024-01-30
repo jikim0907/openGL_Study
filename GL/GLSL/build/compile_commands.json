@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/jikim/study/GL_jikim/GL/GLSL/build",
+  "command": "/usr/bin/g++  -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"pipeline_example_OPENGL!\\\" -DWINDOW_WIDTH=960 -I/home/jikim/study/GL_jikim/GL/GLSL/build/install/include  -g   -std=gnu++17 -o CMakeFiles/GLSL_example.dir/src/main.cpp.o -c /home/jikim/study/GL_jikim/GL/GLSL/src/main.cpp",
+  "file": "/home/jikim/study/GL_jikim/GL/GLSL/src/main.cpp"
+},
+{
+  "directory": "/home/jikim/study/GL_jikim/GL/GLSL/build",
+  "command": "/usr/bin/g++  -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"pipeline_example_OPENGL!\\\" -DWINDOW_WIDTH=960 -I/home/jikim/study/GL_jikim/GL/GLSL/build/install/include  -g   -std=gnu++17 -o CMakeFiles/GLSL_example.dir/src/common.cpp.o -c /home/jikim/study/GL_jikim/GL/GLSL/src/common.cpp",
+  "file": "/home/jikim/study/GL_jikim/GL/GLSL/src/common.cpp"
+},
+{
+  "directory": "/home/jikim/study/GL_jikim/GL/GLSL/build",
+  "command": "/usr/bin/g++  -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"pipeline_example_OPENGL!\\\" -DWINDOW_WIDTH=960 -I/home/jikim/study/GL_jikim/GL/GLSL/build/install/include  -g   -std=gnu++17 -o CMakeFiles/GLSL_example.dir/src/shader.cpp.o -c /home/jikim/study/GL_jikim/GL/GLSL/src/shader.cpp",
+  "file": "/home/jikim/study/GL_jikim/GL/GLSL/src/shader.cpp"
+},
+{
+  "directory": "/home/jikim/study/GL_jikim/GL/GLSL/build",
+  "command": "/usr/bin/g++  -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"pipeline_example_OPENGL!\\\" -DWINDOW_WIDTH=960 -I/home/jikim/study/GL_jikim/GL/GLSL/build/install/include  -g   -std=gnu++17 -o CMakeFiles/GLSL_example.dir/src/program.cpp.o -c /home/jikim/study/GL_jikim/GL/GLSL/src/program.cpp",
+  "file": "/home/jikim/study/GL_jikim/GL/GLSL/src/program.cpp"
+},
+{
+  "directory": "/home/jikim/study/GL_jikim/GL/GLSL/build",
+  "command": "/usr/bin/g++  -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"pipeline_example_OPENGL!\\\" -DWINDOW_WIDTH=960 -I/home/jikim/study/GL_jikim/GL/GLSL/build/install/include  -g   -std=gnu++17 -o CMakeFiles/GLSL_example.dir/src/context.cpp.o -c /home/jikim/study/GL_jikim/GL/GLSL/src/context.cpp",
+  "file": "/home/jikim/study/GL_jikim/GL/GLSL/src/context.cpp"
+},
+{
+  "directory": "/home/jikim/study/GL_jikim/GL/GLSL/build",
+  "command": "/usr/bin/g++  -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"pipeline_example_OPENGL!\\\" -DWINDOW_WIDTH=960 -I/home/jikim/study/GL_jikim/GL/GLSL/build/install/include  -g   -std=gnu++17 -o CMakeFiles/GLSL_example.dir/src/buffer.cpp.o -c /home/jikim/study/GL_jikim/GL/GLSL/src/buffer.cpp",
+  "file": "/home/jikim/study/GL_jikim/GL/GLSL/src/buffer.cpp"
+},
+{
+  "directory": "/home/jikim/study/GL_jikim/GL/GLSL/build",
+  "command": "/usr/bin/g++  -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"pipeline_example_OPENGL!\\\" -DWINDOW_WIDTH=960 -I/home/jikim/study/GL_jikim/GL/GLSL/build/install/include  -g   -std=gnu++17 -o CMakeFiles/GLSL_example.dir/src/image.cpp.o -c /home/jikim/study/GL_jikim/GL/GLSL/src/image.cpp",
+  "file": "/home/jikim/study/GL_jikim/GL/GLSL/src/image.cpp"
+},
+{
+  "directory": "/home/jikim/study/GL_jikim/GL/GLSL/build",
+  "command": "/usr/bin/g++  -DWINDOW_HEIGHT=540 -DWINDOW_NAME=\\\"pipeline_example_OPENGL!\\\" -DWINDOW_WIDTH=960 -I/home/jikim/study/GL_jikim/GL/GLSL/build/install/include  -g   -std=gnu++17 -o CMakeFiles/GLSL_example.dir/src/vertex_layout.cpp.o -c /home/jikim/study/GL_jikim/GL/GLSL/src/vertex_layout.cpp",
+  "file": "/home/jikim/study/GL_jikim/GL/GLSL/src/vertex_layout.cpp"
+}
+]
