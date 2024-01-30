@@ -1,1 +1,0 @@
-cmd='/usr/bin/cmake;-DCMAKE_INSTALL_PREFIX=/home/jikim/study/GL_jikim/GL/GLSL/build/install;-DGLFW_BUILD_EXAMPLES=OFF;-DGLFW_BUILD_TESTS=OFF;-DGLFW_BUILD_DOCS=OFF;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'
