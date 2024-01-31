@@ -21,6 +21,7 @@ class Context {
         BufferUPtr m_vertexBuffer; // VBO
         BufferUPtr m_indexBuffer;
         TextureUPtr m_texture;
+        TextureUPtr m_texture2;
 };
 
 #endif // __CONTEXT_H__
