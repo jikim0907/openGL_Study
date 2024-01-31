@@ -54,21 +54,17 @@ bool Context::Init()
 
     SPDLOG_INFO("program id: {}", m_program->Get());
 
-    auto image = Image::Load("./data/container.jpg");
+    // auto image = Image::Load("./data/container.jpg");
+
+    // for checker image
+    auto image = Image::Create(512, 512);
+    image->SetCheckImage(16, 16);
     if (!image)
     {
         return false;
     }
     SPDLOG_INFO("image: {}x{}, {} channels", image->GetWidth(), image->GetHeight(), image->GetChannelCount());
-
-    glGenTextures(1, &m_texture);
-    glBindTexture(GL_TEXTURE_2D, m_texture);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
-
-    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB,image->GetWidth(), image->GetHeight(), 0,GL_RGB, GL_UNSIGNED_BYTE, image->GetData());
+    m_texture = Texture::CreateFromImage(image.get()); // image.get() is raw pointer
 
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
 

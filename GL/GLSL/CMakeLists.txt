@@ -16,6 +16,7 @@ add_executable(${PROJECT_NAME}  src/main.cpp
                                 src/buffer.cpp src/buffer.h
                                 src/image.cpp src/image.h
                                 src/vertex_layout.cpp src/vertex_layout.h
+                                src/texture.cpp src/texture.h
                                 ) #create object file with src/... all file auto link
 
 #include(ExternalProject) # ExternalProject 
