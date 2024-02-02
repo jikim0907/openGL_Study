@@ -1,0 +1,14 @@
+# Target labels
+ dep_spdlog
+# Source files and their labels
+/home/jikim/study/GL_jikim/GL/GLSL/build/CMakeFiles/dep_spdlog
+/home/jikim/study/GL_jikim/GL/GLSL/build/CMakeFiles/dep_spdlog.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/CMakeFiles/dep_spdlog-complete.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-install.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-mkdir.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-download.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-update.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-patch.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-configure.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-build.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-test.rule

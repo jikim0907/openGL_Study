@@ -1,0 +1,7 @@
+/home/jikim/study/GL_jikim/GL/GLSL/build/install/lib/libglad.a
+/home/jikim/study/GL_jikim/GL/GLSL/build/install/include/KHR/khrplatform.h
+/home/jikim/study/GL_jikim/GL/GLSL/build/install/include/glad/glad.h
+/home/jikim/study/GL_jikim/GL/GLSL/build/install/lib/cmake/glad/gladConfig.cmake
+/home/jikim/study/GL_jikim/GL/GLSL/build/install/lib/cmake/glad/gladConfigVersion.cmake
+/home/jikim/study/GL_jikim/GL/GLSL/build/install/lib/cmake/glad/gladTargets.cmake
+/home/jikim/study/GL_jikim/GL/GLSL/build/install/lib/cmake/glad/gladTargets-noconfig.cmake

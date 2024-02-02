@@ -1,0 +1,14 @@
+# Target labels
+ dep_glad
+# Source files and their labels
+/home/jikim/study/GL_jikim/GL/GLSL/build/CMakeFiles/dep_glad
+/home/jikim/study/GL_jikim/GL/GLSL/build/CMakeFiles/dep_glad.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/CMakeFiles/dep_glad-complete.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_glad-prefix/src/dep_glad-stamp/dep_glad-install.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_glad-prefix/src/dep_glad-stamp/dep_glad-mkdir.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_glad-prefix/src/dep_glad-stamp/dep_glad-download.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_glad-prefix/src/dep_glad-stamp/dep_glad-update.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_glad-prefix/src/dep_glad-stamp/dep_glad-patch.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_glad-prefix/src/dep_glad-stamp/dep_glad-configure.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_glad-prefix/src/dep_glad-stamp/dep_glad-build.rule
+/home/jikim/study/GL_jikim/GL/GLSL/build/dep_glad-prefix/src/dep_glad-stamp/dep_glad-test.rule

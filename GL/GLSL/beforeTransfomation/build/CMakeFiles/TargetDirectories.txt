@@ -1,0 +1,7 @@
+/home/jikim/study/GL_jikim/GL/GLSL/build/CMakeFiles/edit_cache.dir
+/home/jikim/study/GL_jikim/GL/GLSL/build/CMakeFiles/dep_stb.dir
+/home/jikim/study/GL_jikim/GL/GLSL/build/CMakeFiles/dep_glad.dir
+/home/jikim/study/GL_jikim/GL/GLSL/build/CMakeFiles/rebuild_cache.dir
+/home/jikim/study/GL_jikim/GL/GLSL/build/CMakeFiles/dep_glfw.dir
+/home/jikim/study/GL_jikim/GL/GLSL/build/CMakeFiles/dep_spdlog.dir
+/home/jikim/study/GL_jikim/GL/GLSL/build/CMakeFiles/GLSL_example.dir
