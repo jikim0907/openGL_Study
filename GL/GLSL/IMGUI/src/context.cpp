@@ -107,20 +107,13 @@ bool Context::Init()
     glBindTexture(GL_TEXTURE_2D, m_texture2->Get());
 
     m_program->Use();
-    // glUniform1i(glGetUniformLocation(m_program->Get(), "tex"), 0);
-    // glUniform1i(glGetUniformLocation(m_program->Get(), "tex2"), 1);
     m_program->SetUniform("tex", 0);
     m_program->SetUniform("tex2", 1);
 
-    // x축으로 -55도 회전
     auto model = glm::rotate(glm::mat4(1.0f), glm::radians(-55.0f), glm::vec3(1.0f, 0.0f, 0.0f));
-    // 카메라는 원점으로부터 z축 방향으로 -3만큼 떨어짐
     auto view = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, -3.0f));
-    // 종횡비 4:3, 세로화각 45도의 원근 투영
     auto projection = glm::perspective(glm::radians(45.0f),(float)640 / (float)480, 0.01f, 10.0f);
     auto transform = projection * view * model;
-    // auto transformLoc = glGetUniformLocation(m_program->Get(), "transform");
-    // glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(transform));
     m_program->SetUniform("transform", transform);
 
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
@@ -206,6 +199,21 @@ void Context::Render()
     if (ImGui::Begin("my first ImGui window"))
     {
         ImGui::Text("This is first text...");
+        if(ImGui::ColorEdit4("clear code ! ", glm::value_ptr(m_clearColor))){
+            glClearColor(m_clearColor.r, m_clearColor.g, m_clearColor.b, m_clearColor.a);
+        }
+        ImGui::Separator();
+        ImGui::DragFloat3("camera pos", glm::value_ptr(m_cameraPos), 0.01f);
+        ImGui::DragFloat("camera yaw", &m_cameraYaw, 0.5f);
+        ImGui::DragFloat("camera pitch", &m_cameraPitch, 0.5f, -89.0f, 89.0f);
+        ImGui::Separator();
+
+        if (ImGui::Button("reset camera"))
+        {
+            m_cameraYaw = 0.0f;
+            m_cameraPitch = 0.0f;
+            m_cameraPos = glm::vec3(0.0f, 0.0f, 3.0f);
+        }
     }
     ImGui::End();
     
